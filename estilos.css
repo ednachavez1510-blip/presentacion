@@ -2,13 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #fff8dc;
+    background: #fff8dc; /* Amarillo claro */
     color: #333;
 }
 
 /* Encabezado */
 header {
-    background: linear-gradient(90deg, #ff69b4, #ffd700);
+    background: linear-gradient(90deg, #ff69b4, #ffd700); /* Rosa -> Amarillo */
     color: white;
     text-align: center;
     padding: 30px 10px;
