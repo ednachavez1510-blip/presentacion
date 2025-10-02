@@ -3,49 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Presentación</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-        <p>Un diseño simple con HTML, CSS y JavaScript</p>
-        <button id="saludoBtn">Haz clic aquí</button>
+        <h1>Presentación</h1>
+        <h2>Bienvenidos a mi página web para que me conozcan un poco más sobre mi</h2>
     </header>
 
-    <nav id="menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-
     <main>
-        <section id="inicio">
-            <h2>Inicio</h2>
-            <p>Este es un ejemplo de una página web básica hecha con HTML, CSS y un poco de JavaScript.</p>
-        </section>
+        <form id="formulario">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo">
 
-        <section id="servicios">
-            <h2>Servicios</h2>
-            <ul>
-                <li>Diseño Web</li>
-                <li>Desarrollo de Aplicaciones</li>
-                <li>Consultoría Tecnológica</li>
-            </ul>
-        </section>
+            <label for="comentario">Agregar un comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes escribirme al correo: <strong>ejemplo@correo.com</strong></p>
-        </section>
+            <label for="archivo">Subir archivo:</label>
+            <input type="file" id="archivo" name="archivo">
+
+            <button type="submit">Enviar</button>
+        </form>
     </main>
 
     <footer>
-        <p>&copy; 2025 Mi Página Web - Todos los derechos reservados</p>
+        <p>&copy; 2025 Mi Presentación</p>
     </footer>
 
-    <!-- Archivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
